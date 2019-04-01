@@ -5,8 +5,9 @@ import (
 	"log"
 	"os"
 	"os/signal"
-	"proxy/services"
 	"syscall"
+
+	"github.com/snail007/goproxy/services"
 )
 
 const APP_VERSION = "3.0"

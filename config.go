@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
-	"proxy/services"
-	"proxy/utils"
 
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
+	"github.com/snail007/goproxy/services"
+	"github.com/snail007/goproxy/utils"
 )
 
 var (

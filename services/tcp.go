@@ -5,11 +5,11 @@ import (
 	"io"
 	"log"
 	"net"
-	"proxy/utils"
 	"runtime/debug"
+	"strconv"
 	"time"
 
-	"strconv"
+	"github.com/snail007/goproxy/utils"
 )
 
 type TCP struct {

@@ -8,8 +8,9 @@ import (
 	"io"
 	"log"
 	"net"
-	"proxy/utils"
 	"time"
+
+	"github.com/snail007/goproxy/utils"
 )
 
 type TunnelClient struct {
